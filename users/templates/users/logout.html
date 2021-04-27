@@ -1,0 +1,7 @@
+{%  extends "blog_app/base.html" %}
+{%  block content %}
+  <h2>You have been Logged Out!</h2>
+    <div class="border-top pt-3">
+      <a class="btn btn-outline-info" href="{% url 'login' %}" role="button">Login</a>
+    </div>
+{% endblock content %}
