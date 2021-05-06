@@ -35,7 +35,7 @@
               <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
               <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
               <a class="btn btn-outline-light" href="{% url 'logout' %}">Logout</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-              <img class="rounded-circle nav-img" src="{{ user.profile.image.url }}">
+              <!--img class="rounded-circle nav-img" src="{{ user.profile.image.url }}"-->
             {% else %}
               <a class="btn btn-outline-light" href="{% url 'login' %}">Login</a>&nbsp&nbsp&nbsp&nbsp
               <a class="btn btn-outline-light" href="{% url 'register' %}">Register</a>
