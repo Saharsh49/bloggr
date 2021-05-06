@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="{% static 'blog_app/landing3.css' %}">
+    <link rel="stylesheet" href="{% static 'blog_app/landing4.css' %}">
   </head>
 
   <body>
@@ -66,19 +66,23 @@
    <main class="mt-5">
        <div class="container">
            <!--Section: Best Features-->
-           <section id="about-us" class="text-center my-5">
+           <section id="about-us" class="text-left my-5" style="padding-top: 50px; padding-bottom: 45px;">
                <!-- Heading -->
                <h2 class="mb-4 font-weight-bold">About Us</h2>
-               <!--Grid row-->
-               <div class="row d-flex justify-content-center mb-4">
+                 <!--Grid row-->
+               <div class="row justify-content-left mb-4">
                  <!--Grid column-->
-                   <div class="col-md-8">
+
+                   <div class="col-md-6">
                        <!-- Description -->
-                       <p class="grey-text">Bloggr is a free blogging community, where you can post your blogs, share your experience as well as explore variety of blogs of your interest!</p>
+                       <p class="grey-text" style="font-size: 1.3em;">Bloggr is a free blogging community, where you can post your blogs, share your experience as well as explore variety of blogs of your interest!</p>
+                   </div>
+                   <div class="col-md-6">
+                     <img src="/media/blog.png" style="height:250px; width: 300px; float: right;">
                    </div>
                </div>
-               <div class="row">
-                   <!--Grid column-->
+               <!--div class="row">
+                   <Grid column>
                    <div class="col-md-6 mb-5">
                        <h4 class="my-4 font-weight-bold">Share</h4>
                        <p class="grey-text">Share your experience and knowledge through Bloggr!!</p>
@@ -88,7 +92,7 @@
                        <h4 class="my-4 font-weight-bold">Explore</h4>
                        <p class="grey-text">Explore numerous blogs of all of your interests on Bloggr!!</p>
                    </div>
-                   <!--Grid column-->
+                   <Grid column-->
                    <!--div class="col-md-4 mb-1">
                        <i class="fa fa-bicycle fa-4x orange-text"></i>
                        <h4 class="my-4 font-weight-bold"></h4>
@@ -123,13 +127,13 @@
           <h5 class="text-uppercase"><b>Connect With Us</b></h5>
           <ul class="list-unstyled mb-0 my-4">
             <li class="my-2">
-              <a href="#!">Instagram</a>
+              <a href="#!"><i class="fab fa-instagram" style="font-size: 2rem"></i></a>
             </li>
             <li class="my-2 ">
-              <a href="#!">Twitter</a>
+              <a href="#!"><i class="fab fa-twitter" style="font-size: 2rem"></i></a>
             </li>
             <li>
-              <a href="#!">Facebook</a>
+              <a href="#!"><i class="fab fa-facebook" style="font-size: 2rem"></i></a>
             </li>
           </ul>
       </div>
@@ -164,6 +168,7 @@
 <!-- Footer -->
 
    <!-- Footer -->
+    <script src="https://kit.fontawesome.com/e6e6ab3aed.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

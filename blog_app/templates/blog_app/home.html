@@ -1,6 +1,12 @@
 {%  extends "blog_app/base.html" %}
 {%  block content %}
-  <h1 class="mb-4">Welcome to Bloggr!</h1>
+
+  {% if user.is_authenticated %}
+    <h1 class="mb-4">Welcome, {{ request.user.username }}</h1>
+  {% else %}
+    <h1 class="mb-4">Welcome to Bloggr!</h1>
+  {% endif %}
+
   {% for post in posts %}
     <article class="media content-section">
       <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
