@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jc)epzhd=jhq%n#5o*#sg=mo(jffe!o_j^6*%1er-%p*+u%y!c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bloggr-webapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
