@@ -12,7 +12,7 @@ body{
 }
 
 #intro {
-    background: url("/media/abc.jpg")no-repeat center center fixed;
+    background: url("/media/abc.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
