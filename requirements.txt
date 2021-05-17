@@ -1,8 +1,5 @@
 alabaster==0.7.12
 altgraph==0.17
-anaconda-client==1.7.2
-anaconda-navigator==1.9.7
-anaconda-project==0.8.3
 appdirs==1.4.4
 asgiref==3.2.7
 asn1crypto==1.0.1
@@ -34,10 +31,6 @@ cloudpickle==1.2.2
 clyent==1.2.2
 colorama==0.4.1
 comtypes==1.1.7
-conda==4.8.5
-conda-build==3.18.9
-conda-package-handling==1.6.0
-conda-verify==3.4.2
 contextlib2==0.6.0
 cryptography==2.7
 cycler==0.10.0
@@ -112,7 +105,6 @@ more-itertools==7.2.0
 mpmath==1.1.0
 msgpack==0.6.1
 multipledispatch==0.6.0
-navigator-updater==0.2.1
 nbconvert==5.6.0
 nbformat==4.4.0
 networkx==2.3
@@ -154,7 +146,6 @@ Pygments==2.4.2
 pyinstaller==4.2
 pyinstaller-hooks-contrib==2020.11
 pylint==2.4.3
-pyodbc==4.0.27
 pyOpenSSL==19.0.0
 pyparsing==2.4.2
 pyreadline==2.1
